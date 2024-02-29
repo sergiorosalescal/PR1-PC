@@ -11,19 +11,10 @@
 # * @bug There are no known bugs
 #*/
 
-##include <iostream> 
+##include <iostream>
 ##include <iomanip>
 
 #using namespace std;
-
-#double Factorial(int numero_factorizar) {
-#  int numero_factorizado{1};
-#  for (int contador{numero_factorizar}; contador > 0; --contador) {
-#    numero_factorizado *= contador;
-#  }
-#  return numero_factorizado;
-#}
-
 
 #int main() {
 #  cout << "PR1: Principio de Computadores." << endl;
